@@ -9,7 +9,7 @@ function SeleccionRol(){
             navegar("/registerpaciente")
         }
         else{
-            navegar("/registerdoctor")
+            navegar("/validaciondoctor")
         }    
     }
 

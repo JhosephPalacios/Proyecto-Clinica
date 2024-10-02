@@ -1,0 +1,85 @@
+.validacion-doctor-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrará horizontalmente */
+    justify-content: center; /* Centrará verticalmente */
+    text-align: center;
+    position: relative;
+    background-color: transparent;
+    border: 2px solid rgb(0, 0, 0);
+    backdrop-filter: blur(10px);
+    width: 450px;
+    height: 250px;
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    padding: 10%;
+}
+
+.validacion-doctor-title {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.validacion-doctor-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%; /* Ajustamos el ancho para que ocupe todo el container */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.validacion-doctor-label {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #333;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.validacion-doctor-input {
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%; /* Asegura que el input sea del mismo ancho que el container */
+}
+
+.validacion-doctor-button {
+    width: 100%; /* Ajusta el ancho del botón para que ocupe todo el espacio */
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgb(0, 0, 0, .4);
+    cursor: pointer;
+    font-size: 16px;
+    color:rgb(255, 255, 255);
+    font-weight: 700;
+    transition: background-color 0.5s ease;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.validacion-doctor-button:hover {
+    background-color: #3cb3cb;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.validacion-doctor-error {
+    color: rgb(0, 0, 0);
+    background: rgba(255, 0, 0, 0.301);
+    border-radius: 25px;
+    font-size: 15px;
+    margin-top: 10px;
+    text-align: center; /* Asegura que el texto de error esté centrado */
+    width: 100%; /* Asegura que el mensaje de error ocupe todo el ancho del container */
+}

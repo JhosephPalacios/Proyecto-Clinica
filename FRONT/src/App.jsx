@@ -7,6 +7,7 @@ import Login from "./componentes/Login/Login.jsx"
 import SeleccionRol from"./componentes/SeleccionRol/SeleccionRol.jsx"
 import RegisterPaciente from "./componentes/RegisterPaciente/RegisterPaciente.jsx"
 import RegisterDoctor from "./componentes/RegisterDoctor/RegisterDoctor.jsx"
+import ValidacionDoctor from "./componentes/ValidacionDoctor/ValidacionDoctor.jsx"
 //funciones del doctor
 import PerfilDoctor from "./componentes/Doctor/PerfilDoctor/PerfilDoctor.jsx"
 import CrearHorario from "./componentes/Doctor/CrearHorario/CrearHorario.jsx"
@@ -17,12 +18,14 @@ import Buscar from "./componentes/Paciente/Buscar/Buscar.jsx"
 import SacarCita from "./componentes/Paciente/SacarCita/SacarCita.jsx"
 import TuCita from "./componentes/Paciente/TuCita/TuCita.jsx"
 
+
 function App(){
   return(
     <Router>
       <Routes>
         <Route path="/" element={<Login/>}/>
         <Route path="/seleccionrol" element={<SeleccionRol/>}/>
+        <Route path="/validaciondoctor" element={<ValidacionDoctor/>}/>
         <Route path="/registerpaciente" element={<RegisterPaciente/>}/>
         <Route path="/registerdoctor" element={<RegisterDoctor/>}/>
         <Route path="/perfildoctor" element={<PerfilDoctor/>}/>

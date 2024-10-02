@@ -1,7 +1,7 @@
 .contenedor-SeleccionRol{
     position: relative;
     background-color: transparent;
-    border: 2px solid rgba(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
     backdrop-filter: blur(10px);
     width: 450px;
     height: 250px;
